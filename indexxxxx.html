@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ProjectDeck-Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.container .btn {
+  position: absolute;
+  top: 01%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background: transparent;
+  color: black;
+  font-size: 20px;
+  font-family: Comic Sans MS;
+  padding: 12px 24px;
+  text-decoration: none;
+  border: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.container .btn span:nth-child(1)
+{
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 width: 100%;
+	 height: 3px; 
+	 background: linear-gradient(to right, #edc5c5, #610a0a);
+	 animation: animate1 2s linear infinite;
+}
+@keyframes animate1
+{
+	0%
+	{
+		transform:translateX(-100%);
+	}
+	100%
+	{
+		transform:translateX(100%);
+	}
+}
+.container .btn span:nth-child(2)
+{
+	 position: absolute;
+	 top: 0;
+	 right: 0;
+	 width: 3px;
+	 height: 100%; 
+	 background: linear-gradient(to bottom, #edc5c5, #610a0a);
+	 animation: animate2 2s linear infinite;
+}
+@keyframes animate2
+{
+	0%
+	{
+		transform:translateY(-100%);
+	}
+	100%
+	{
+		transform:translateY(100%);
+	}
+}
+.container .btn span:nth-child(3)
+{
+	 position: absolute;
+	 bottom: 0;
+	 right: 0;
+	 width: 100%;
+	 height: 3px; 
+	 background: linear-gradient(to left, #edc5c5, #610a0a);
+	 animation: animate3 2s linear infinite;
+}
+@keyframes animate3
+{
+	0%
+	{
+		transform:translateX(100%);
+	}
+	100%
+	{
+		transform:translateX(-100%);
+	}
+}
+.container .btn span:nth-child(4)
+{
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 width: 3px;
+	 height: 100%; 
+	 background: linear-gradient(to top, #edc5c5, #610a0a);
+	 animation: animate4 2s linear infinite;
+}
+@keyframes animate4
+{
+	0%
+	{
+		transform:translateY(100%);
+	}
+	100%
+	{
+		transform:translateY(-100%);
+	}
+}
+
+
+
+
+.container .btn1 {
+  position: absolute;
+  top: 01%;
+  left: 59.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background: transparent;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: Comic Sans MS;
+  overflow: hidden;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.container .btn1 span:nth-child(1)
+{
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 width: 100%;
+	 height: 3px; 
+	 background: linear-gradient(to right, #edc5c5, #610a0a);
+	 animation: animate1 2s linear infinite;
+}
+@keyframes animate1
+{
+	0%
+	{
+		transform:translateX(-100%);
+	}
+	100%
+	{
+		transform:translateX(100%);
+	}
+}
+.container .btn1 span:nth-child(2)
+{
+	 position: absolute;
+	 top: 0;
+	 right: 0;
+	 width: 3px;
+	 height: 100%; 
+	 background: linear-gradient(to bottom, #edc5c5, #610a0a);
+	 animation: animate2 2s linear infinite;
+}
+@keyframes animate2
+{
+	0%
+	{
+		transform:translateY(-100%);
+	}
+	100%
+	{
+		transform:translateY(100%);
+	}
+}
+.container .btn1 span:nth-child(3)
+{
+	 position: absolute;
+	 bottom: 0;
+	 right: 0;
+	 width: 100%;
+	 height: 3px; 
+	 background: linear-gradient(to left, #edc5c5, #610a0a);
+	 animation: animate3 2s linear infinite;
+}
+@keyframes animate3
+{
+	0%
+	{
+		transform:translateX(100%);
+	}
+	100%
+	{
+		transform:translateX(-100%);
+	}
+}
+.container .btn1 span:nth-child(4)
+{
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 width: 3px;
+	 height: 100%; 
+	 background: linear-gradient(to top, #edc5c5, #610a0a);
+	 animation: animate4 2s linear infinite;
+}
+@keyframes animate4
+{
+	0%
+	{
+		transform:translateY(100%);
+	}
+	100%
+	{
+		transform:translateY(-100%);
+	}
+}
+
+
+
+
+
+
+
+.container .btn3 {
+  position: absolute;
+  top: 01%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background: transparent;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: Comic Sans MS;
+  overflow: hidden;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.container .btn3 span:nth-child(1)
+{
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 width: 100%;
+	 height: 3px; 
+	 background: linear-gradient(to right, #edc5c5, #610a0a);
+	 animation: animate1 2s linear infinite;
+}
+@keyframes animate1
+{
+	0%
+	{
+		transform:translateX(-100%);
+	}
+	100%
+	{
+		transform:translateX(100%);
+	}
+}
+.container .btn3 span:nth-child(2)
+{
+	 position: absolute;
+	 top: 0;
+	 right: 0;
+	 width: 3px;
+	 height: 100%; 
+	 background: linear-gradient(to bottom, #edc5c5, #610a0a);
+	 animation: animate2 2s linear infinite;
+}
+@keyframes animate2
+{
+	0%
+	{
+		transform:translateY(-100%);
+	}
+	100%
+	{
+		transform:translateY(100%);
+	}
+}
+.container .btn3 span:nth-child(3)
+{
+	 position: absolute;
+	 bottom: 0;
+	 right: 0;
+	 width: 100%;
+	 height: 3px; 
+	 background: linear-gradient(to left, #edc5c5, #610a0a);
+	 animation: animate3 2s linear infinite;
+}
+@keyframes animate3
+{
+	0%
+	{
+		transform:translateX(100%);
+	}
+	100%
+	{
+		transform:translateX(-100%);
+	}
+}
+.container .btn3 span:nth-child(4)
+{
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 width: 3px;
+	 height: 100%; 
+	 background: linear-gradient(to top, #edc5c5, #610a0a);
+	 animation: animate4 2s linear infinite;
+}
+@keyframes animate4
+{
+	0%
+	{
+		transform:translateY(100%);
+	}
+	100%
+	{
+		transform:translateY(-100%);
+	}
+}
+
+
+
+.container .btn4 {
+  position: absolute;
+  top: 01%;
+  left: 81%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background: transparent;
+  text-decoration: none;
+  color: black;
+	font-size: 20px;
+  font-family: Comic Sans MS;
+  overflow: hidden;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.container .btn4 span:nth-child(1)
+{
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 width: 100%;
+	 height: 3px; 
+	 background: linear-gradient(to right, #edc5c5, #610a0a);
+	 animation: animate1 2s linear infinite;
+}
+@keyframes animate1
+{
+	0%
+	{
+		transform:translateX(-100%);
+	}
+	100%
+	{
+		transform:translateX(100%);
+	}
+}
+.container .btn4 span:nth-child(2)
+{
+	 position: absolute;
+	 top: 0;
+	 right: 0;
+	 width: 3px;
+	 height: 100%; 
+	 background: linear-gradient(to bottom, #edc5c5, #610a0a);
+	 animation: animate2 2s linear infinite;
+}
+@keyframes animate2
+{
+	0%
+	{
+		transform:translateY(-100%);
+	}
+	100%
+	{
+		transform:translateY(100%);
+	}
+}
+.container .btn4 span:nth-child(3)
+{
+	 position: absolute;
+	 bottom: 0;
+	 right: 0;
+	 width: 100%;
+	 height: 3px; 
+	 background: linear-gradient(to left, #edc5c5, #610a0a);
+	 animation: animate3 2s linear infinite;
+}
+@keyframes animate3
+{
+	0%
+	{
+		transform:translateX(100%);
+	}
+	100%
+	{
+		transform:translateX(-100%);
+	}
+}
+.container .btn4 span:nth-child(4)
+{
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 width: 3px;
+	 height: 100%; 
+	 background: linear-gradient(to top, #edc5c5, #610a0a);
+	 animation: animate4 2s linear infinite;
+}
+@keyframes animate4
+{
+	0%
+	{
+		transform:translateY(100%);
+	}
+	100%
+	{
+		transform:translateY(-100%);
+	}
+}
+
+
+.container .btn5 {
+  position: absolute;
+  top: 01%;
+  left: 92.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background: transparent;
+  text-decoration: none;
+  color: black;
+	font-size: 20px;
+  font-family: Comic Sans MS;
+  overflow: hidden;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.container .btn5 span:nth-child(1)
+{
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 width: 100%;
+	 height: 3px; 
+	 background: linear-gradient(to right, #edc5c5, #610a0a);
+	 animation: animate1 2s linear infinite;
+}
+@keyframes animate1
+{
+	0%
+	{
+		transform:translateX(-100%);
+	}
+	100%
+	{
+		transform:translateX(100%);
+	}
+}
+.container .btn5 span:nth-child(2)
+{
+	 position: absolute;
+	 top: 0;
+	 right: 0;
+	 width: 3px;
+	 height: 100%; 
+	 background: linear-gradient(to bottom, #edc5c5, #610a0a);
+	 animation: animate2 2s linear infinite;
+}
+@keyframes animate2
+{
+	0%
+	{
+		transform:translateY(-100%);
+	}
+	100%
+	{
+		transform:translateY(100%);
+	}
+}
+.container .btn5 span:nth-child(3)
+{
+	 position: absolute;
+	 bottom: 0;
+	 right: 0;
+	 width: 100%;
+	 height: 3px; 
+	 background: linear-gradient(to left, #edc5c5, #610a0a);
+	 animation: animate3 2s linear infinite;
+}
+@keyframes animate3
+{
+	0%
+	{
+		transform:translateX(100%);
+	}
+	100%
+	{
+		transform:translateX(-100%);
+	}
+}
+.container .btn5 span:nth-child(4)
+{
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 width: 3px;
+	 height: 100%; 
+	 background: linear-gradient(to top, #edc5c5, #610a0a);
+	 animation: animate4 2s linear infinite;
+}
+@keyframes animate4
+{
+	0%
+	{
+		transform:translateY(100%);
+	}
+	100%
+	{
+		transform:translateY(-100%);
+	}
+}
+
+
+
+
+
+
+</style>
+</head>
+<body>
+		<div class="container">
+		
+		
+		<button class="btn3"></button>
+		<a href="index11.html" class="btn3">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			DETAILS
+		</a>
+		<button class="btn4"></button>
+		<a href="search.html" class="btn4">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			SEARCH
+		</a>
+		<button class="btn5"></button>
+		<a href="index22.html" class="btn5">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			FEEDBACK
+		</a>
+
+
+
+
+
+
+
+
+	
+	
+
+ <img src="100.jpg" style="width:100%;display:block";>
+<img src="101.jpg" style="width:100%;display:block";>
+  <img src="102.jpg" style="width:100%;display:block";>
+  </div>
+</body>
+</html>
